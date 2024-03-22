@@ -31,21 +31,3 @@ variable "public_network_access_enabled" {
   description = "Whether the public network access is enabled"
   default     = false
 }
-
-variable "non_prod_subscription_id" {
-  type        = string
-  description = "non_prod_subscription_id
-  default     = "<non_prod_subscription_id>"
-}
-
-variable "staging_subscription_id" {
-  type        = string
-  description = "staging_subscription_id
-  default     = "<staging_subscription_id>"
-}
-
-variable "prod_subscription_id" {
-  type        = string
-  description = "prod_subscription_id
-  default     = "<prod_subscription_id>"
-}
